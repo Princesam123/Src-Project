@@ -1,0 +1,78 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('SRC.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.signup-box {
+    width: 350px;
+    height: 680px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+#txtFirstname, #txtLastname, #txtPhone, #txtEmail, #txtUsername, #txtPassword, #txtStudentID {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#btnSignup {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#txtFirstname, #txtLastname, #txtPhone, #txtEmail, #txtUsername, #txtPassword, #txtStudentID {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#btnSignup {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+    #btnSignup:hover {
+        cursor: pointer;
+        background: #39dc79;
+        color: #000;
+    }
+
+#linkSignin {
+    text-decoration: none;
+    font-size: 14px;
+    color: darkgrey;
+}
+
+    #linkSignin:hover {
+        color: #ffc107
+    }
